@@ -1,0 +1,109 @@
+.product-Section {
+  /* height: "870px"; */
+  background: var(--bodyColor);
+  position: relative;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  height: 300px !important;
+  background-color: var(--bodyColor);
+}
+
+.card {
+  background-color: inherit;
+
+  margin: 15px;
+  padding: 10px;
+  /* margin: 5px;
+  padding: 10px; */
+  width: 300px !important;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border-radius: 10px; */
+  /* border: 4px solid #ebebeb; */
+  border: none !important;
+}
+
+.marquee {
+  /* border-radius: 10px; */
+  background: inherit;
+  /* background-color: green; */
+  box-shadow: none;
+}
+
+.marquee-wrapper {
+  display: flex;
+}
+
+.boxespart {
+  height: 300px !important;
+}
+
+/* .btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #77a1d3 0%,
+    #79cbca 51%,
+    #77a1d3 100%
+  );
+  padding: 3px 8px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+} */
+
+/* .btn-grad:hover {
+  background-position: right center; 
+  color: #fff;
+  text-decoration: none;
+} */
+
+.marquee {
+  height: 590px !important;
+  align-items: flex-end !important;
+}
+
+/* .btn-grad2 {
+  background-image: linear-gradient(
+    to right,
+    #348f50 0%,
+    #56b4d3 51%,
+    #348f50 100%
+  );
+  padding: 3px 8px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+} */
+
+/* .btn-grad2:hover {
+  background-position: right center; 
+  color: #fff;
+  text-decoration: none;
+} */
+
+.custom-input::placeholder {
+  color: white !important; /* Your desired placeholder color */
+}
+
+.picker {
+  /* background: linear-gradient(0.93turn, #8acfdf, #639bca, #5182bf); */
+  background: linear-gradient(0.5turn, #aae1ee, #abd8ff, #97d3e0);
+  border-color: white !important;
+}
+.ant-picker-input > input::placeholder {
+  color: white !important; /* Your desired placeholder color */
+}
+

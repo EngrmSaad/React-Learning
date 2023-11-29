@@ -1,0 +1,105 @@
+.et_pb_row_5.et_pb_row {
+  padding-top: 10px !important;
+  padding-top: 10px;
+}
+a,
+abbr,
+acronym,
+address,
+applet,
+b,
+big,
+blockquote,
+body,
+center,
+cite,
+code,
+dd,
+del,
+dfn,
+div,
+dl,
+dt,
+em,
+fieldset,
+font,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+object,
+ol,
+p,
+pre,
+q,
+s,
+samp,
+small,
+span,
+strike,
+strong,
+sub,
+sup,
+tt,
+u,
+ul,
+var {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  /* font-size: 100%; */
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 80%;
+  vertical-align: baseline;
+  background: transparent;
+}
+.heading-Color {
+  color: #2b5a93 !important;
+}
+.container-height {
+  height: 70% !important;
+}
+
+.project-info li {
+  list-style-type: none;
+}
+.tech-section {
+  position: relative;
+  z-index: auto;
+}
+
+.parent{
+  background-color: var(--bodyColor);
+  position: relative;
+}
+
+.Tech-Boxes{
+  background-color: #ffeaea;
+  -webkit-transition: all 0.4s ease-in-out !important;
+  -o-transition: all 0.4s ease-in-out !important;
+  transition: all 0.4s ease-in-out !important;
+}
+
+.Tech-Boxes:hover{
+  font-weight: 500 !important;
+  /* color: #ffffff !important; */
+  /* background: #2b5a93 !important; */
+  background: #ffd4d4 !important;
+  -webkit-transform: translateY(-5px) !important;
+  -ms-transform: translateY(-5px) !important;
+  transform: translateY(-5px) !important;
+  border: none !important;
+}

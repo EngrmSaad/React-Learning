@@ -1,0 +1,7 @@
+.word {
+  display: flex;
+  align-items: center;
+  height: 140px;
+  font-size: 30px;
+  color: #ffffff;
+}

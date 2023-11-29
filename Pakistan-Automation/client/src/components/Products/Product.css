@@ -1,0 +1,146 @@
+.picture {
+  background: linear-gradient(0.13turn, #8acfdf, #639bca, #5182bf);
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.image-parent {
+  height: 150px;
+}
+.description {
+  height: 250px;
+}
+.btn-card {
+  margin-bottom: 50px;
+}
+
+.ant-drawer-header {
+  background-color: #2b5a93;
+  color: white;
+}
+.ant-drawer-title {
+  color: #f8f9fa !important;
+}
+.anticon {
+  color: white !important;
+}
+.ant-drawer-content-wrapper {
+  width: 478px !important;
+}
+.ant-drawer-mask {
+  background: rgb(0 0 0 / 8%) !important;
+}
+/* background: linear-gradient(0.81turn, #365158, #6697c0, #b6d1f4 */
+.ant-drawer-body {
+  background-image: linear-gradient(0.84turn, #26849c, #1e4362, #5687c8);
+  color: white;
+}
+.offcanvas-title {
+  color: #2b5a93;
+  background: white;
+  border-radius: 4px;
+  padding: 4px;
+}
+
+.project-info {
+  text-align: justify;
+  height: 100px;
+  text-transform: capitalize;
+}
+
+.explore-btn {
+  color: white;
+  background-color: white;
+}
+
+.btn-head {
+  /* background-color: #56b4d3; */
+  border-radius: 6px;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  cursor: pointer;
+  height: 40px;
+}
+.demo-btn-head {
+  background-color: #6bcbded3;
+  border-radius: 6px;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  cursor: pointer;
+  height: 40px;
+}
+
+.btn-bottom-curve {
+  width: 180px;
+  height: 20.5px;
+  position: relative;
+  border-top-right-radius: 50px;
+  background-color: #26b3cfad;
+  border-bottom-left-radius: 6px;
+}
+
+.btn-top-curve {
+  width: 180px;
+  height: 20px;
+  border-bottom-right-radius: 50px;
+  background-color: #26b3cfad;
+  position: relative;
+  border-top-left-radius: 6px;
+}
+
+.demo-btn-top-curve {
+  width: 180px;
+  height: 20px;
+  border-bottom-right-radius: 50px;
+  background-color: white;
+  position: relative;
+  border-top-left-radius: 6px;
+}
+
+.demo-btn-bottom-curve {
+  width: 180px;
+  height: 20.5px;
+  position: relative;
+  border-top-right-radius: 50px;
+  background-color: white;
+  border-bottom-left-radius: 6px;
+}
+
+.btn-txt {
+  position: relative;
+  bottom: 33px;
+}
+
+.liStyle {
+  list-style-type: disclosure-closed;
+}
+
+/* Default styles for the image */
+
+/* Media query for small screens (adjust the screen size as needed) */
+@media (max-width: 768px) {
+  .drawer-img {
+    width: 50%;
+    /* You can adjust other styles for small screens as needed */
+  }
+
+  .ant-drawer-content-wrapper {
+    width: 350px !important;
+  }
+  .offcanvas-title {
+    width: 300px;
+  }
+  .text {
+    width: 320px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  [data-aos] {
+    opacity: 1 !important; /* Set the properties to their default values */
+    transform: none !important;
+    transition: none !important;
+    /* Add more properties if needed */
+  }
+}

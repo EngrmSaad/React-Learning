@@ -1,0 +1,59 @@
+.border-bottom {
+  border-bottom: 1px solid #ededed !important;
+}
+
+.fa-brands {
+  font-size: 20px !important;
+}
+.fa-facebook {
+  color: #fff !important;
+}
+.fa-facebook:hover {
+  color: #1877f2 !important;
+}
+
+.fa-linkedin-top {
+  color: #fff !important;
+}
+
+.fa-linkedin-top:hover {
+  color: #006eb1 !important;
+}
+
+@media only screen and (max-width: 767px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
+  .conact-us-wrap-one {
+    margin-bottom: 30px;
+  }
+}
+
+.conact-us-wrap-one .heading {
+  position: relative;
+  padding-left: 34px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.conact-us-wrap-one .heading::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 4px;
+  height: 94%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  background-color: #2b5a93;
+}
+
+.conact-us-wrap-one .sub-heading {
+  margin-top: 15px;
+  font-size: 18px;
+  margin-left: 34px;
+  color: #696969;
+}
+.color-For-Top {
+  /* background-color: #2B5A93; */
+  background-color: #0c2340;
+}

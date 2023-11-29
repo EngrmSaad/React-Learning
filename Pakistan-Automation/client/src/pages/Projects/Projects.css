@@ -1,0 +1,238 @@
+.projects-bg {
+  /* background-image: url(../images/patterns/Pakistan-Automation-home-infotechno-case-study-projects-bg.webp); */
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+
+.projects-space--ptb_100 {
+  padding-bottom: 30px;
+  /* background-color: #ffffff; */
+  background-color: var(--bodyColor);
+  position: relative;
+  z-index: auto;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .projects-space--ptb_100 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .projects-space--ptb_100 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+.projects-space--mb_40 {
+  margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 767px) {
+  .projects-space--mb_40 {
+    margin-bottom: 30px;
+  }
+}
+
+.projects-sub-title {
+  color: #ababab;
+  font-size: 14px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  line-height: 1.43;
+  margin-top: -5px;
+}
+
+.projects-slider__container .projects-wrap.style-01 {
+  display: block;
+  /* cursor: pointer; */
+}
+
+.projects-slider__container .projects-wrap.style-01 .projects-image-box {
+  margin: 20px 15px 35px;
+}
+
+.projects-wrap.style-01 {
+  display: block;
+}
+
+.projects-wrap.style-01 .projects-image-box {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  -webkit-box-shadow: 0 18px 40px -10px rgba(51, 51, 51, 0.1);
+  box-shadow: 0 18px 40px -10px rgba(51, 51, 51, 0.1);
+  position: relative;
+  margin-bottom: 30px;
+  /*margin: 20px 15px 35px;*/
+}
+
+.projects-wrap.style-01 .content {
+  padding: 25px 26px 94px;
+  padding-bottom: 88px;
+}
+
+.projects-wrap.style-01 .content .heading {
+  font-weight: 600;
+  line-height: 1.25;
+  margin-bottom: 2px;
+  color: #333 !important;
+}
+
+.projects-wrap.style-01 .content .post-categories {
+  color: #2B5A93;
+  margin-bottom: 2px;
+}
+
+.projects-wrap.style-01 .content .text {
+  color: #696969;
+  margin-top: 13px;
+}
+
+.projects-wrap.style-01 .content .box-projects-arrow {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  height: 56px;
+  line-height: 55px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  border-top: 1px solid #eee;
+  color: #2b5a93;
+}
+
+.projects-wrap.style-01 .content .box-projects-arrow::before {
+  background-color: #2b5a93;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-transform: translateY(100%);
+  -ms-transform: translateY(100%);
+  transform: translateY(100%);
+  -webkit-transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
+  z-index: -1;
+}
+
+.projects-wrap.style-01:hover {
+  cursor: pointer;
+  -webkit-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  transform: translateY(-5px);
+}
+
+.projects-wrap.style-01:hover .content .heading {
+  color: #2b5a93;
+}
+
+.projects-wrap.style-01:hover .content .box-projects-arrow {
+  color: #ffffff;
+}
+
+.projects-wrap.style-01:hover .content .box-projects-arrow::before {
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+}
+
+.swiper-container {
+  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.swiper-container:hover .swiper-nav-button {
+  opacity: 1;
+  visibility: visible;
+}
+.swiper-wrapper {
+  -webkit-transition-timing-function: linear !important;
+  -o-transition-timing-function: linear !important;
+  transition-timing-function: linear !important;
+}
+/* .Box-Sizing-ProjectCard{
+    height: 350px !important;
+  } */
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+/* img.anim-up-down {
+  -webkit-animation: move-up-down 1s infinite alternate !important;
+  animation: move-up 1s infinite alternate !important;
+
+} */
+img.anim-up-down {
+  width: 471px;
+  height: 300px;
+  /* background-color: blue; */
+  position: relative;
+  animation: upAndDown 2s;
+}
+
+.text-desc {
+  text-align: justify;
+  /* color: #595757; */
+  /* font-weight: 500; */
+}
+
+@keyframes upAndDown {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+img.left-to-right {
+  animation: upAndDown 2s;
+}
+
+@keyframes upAndDown {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+.from-Top {
+  /* margin-top: 30px !important; */
+  height: 450px;
+  align-items: center !important;
+  display: flex !important;
+}
+.vertical-padding {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
+.heading-Color {
+  color: var(--darkColor) !important;
+}
+
+@media only screen and (min-width: 750px) {
+  /* paste here ​all the content of the aos.css file */
+}
+
+/* Disable AOS animations on mobile screens (max-width: 768px) */
+@media (max-width: 767px) {
+  [data-aos] {
+    opacity: 1 !important; /* Set the properties to their default values */
+    transform: none !important;
+    transition: none !important;
+    /* Add more properties if needed */
+  }
+}

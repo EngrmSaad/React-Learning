@@ -1,0 +1,5 @@
+.site-wrapper-reveal {
+  position: relative;
+  z-index: 2;
+  background: #ffffff;
+}

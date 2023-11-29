@@ -1,0 +1,32 @@
+.talk-us {
+  background-color: var(--btnColor) !important;
+  /* color: #2d75df; */
+  color: var(--darkColor);
+  border-radius: 24px !important;
+  width: 180px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.empower {
+  font-size: 42px;
+  color: var(--headingColor);
+  /* color: #2d75df; */
+  /* font-family: "Saira", sans-serif !important; */
+}
+.banner-text {
+  font-family: "Montserrat", sans-serif !important;
+  color: black;
+}
+.talk-us:hover {
+  /* background-color: #2d75df !important; */
+  background-color: var(--darkColor) !important;  
+  color: #ffffff;
+  transition: ease-in 0.5s;
+}
+.company-name {
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 300;
+  color: black;
+  /* color: #2d75df; */
+}

@@ -1,0 +1,27 @@
+.system-title {
+  color: grey;
+  font-size: 26px;
+}
+.system-details {
+  text-align: justify;
+  font-size: 18px;
+}
+@media (max-width: 950px) {
+  .system-container {
+    flex-direction: column; /* Change to a vertical layout */
+    margin-left: 20% !important;
+  }
+  .system-form {
+    display: block !important;
+  }
+}
+
+@media (max-width: 650px) {
+  .system-container {
+    flex-direction: column; /* Change to a vertical layout */
+    margin-left: 0% !important;
+  }
+  .system-form {
+    display: block !important;
+  }
+}

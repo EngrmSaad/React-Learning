@@ -1,0 +1,66 @@
+.box-style {
+  background-color: transparent;
+  /* border-left: 1px solid #ddd; */
+  /* border-right: 1px solid #ddd; */
+}
+
+.service-box-icon.box-style .icon-box-wrap {
+  padding: 30px 15px;
+  border-radius: 5px;
+  -webkit-transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.service-box-icon.box-style .icon-box-wrap .icon {
+  min-width: 80px;
+  margin-right: 10px;
+  color: #333333;
+}
+
+.service-box-icon.box-style .icon-box-wrap .icon .svg-icon {
+  width: 65px;
+  height: 65px;
+}
+
+.service-box-icon.box-style .icon-box-wrap .icon svg * {
+  stroke: currentColor;
+}
+
+.service-box-icon.box-style .icon-box-wrap .content {
+  text-align: left;
+}
+
+.service-box-icon.box-style .icon-box-wrap .content .heading {
+  font-weight: 500;
+  line-height: 1.25;
+  margin-bottom: 12px;
+}
+
+.service-box-icon.box-style .icon-box-wrap .content .service_text {
+  color: #696969;
+}
+
+.service-box-icon.box-style:hover .icon-box-wrap {
+  border-color: #fff;
+  -webkit-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  transform: translateY(-5px);
+  background: #fff;
+  -webkit-box-shadow: 0 0 40px rgba(51, 51, 51, 0.1);
+  box-shadow: 0 0 40px rgba(51, 51, 51, 0.1);
+}
+
+.service-box-icon.box-style .feature-btn span {
+  color: #2B5A93;
+  margin-top: 20px;
+}
+
+.service-box-icon.box-style .feature-btn span:hover {
+  color:  #2B5A93;
+}

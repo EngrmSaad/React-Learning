@@ -1,0 +1,15 @@
+.banner {
+  height: 90vh;
+  /* background-image: url(https://pakistan-automation.designsblaze.com/wp-content/uploads/2023/08/blue.png); */
+  /* background-image: url('../../assets/images/Banner_Background.png'); */
+  /* background-color: var(--bodyColor); */
+  /* background-color: #f9d0d2; */
+  background-color: var(--mainColor);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+

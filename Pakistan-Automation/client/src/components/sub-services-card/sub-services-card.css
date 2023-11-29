@@ -1,0 +1,109 @@
+
+.sub-services-box.style-01 .image-box-wrap {
+  -webkit-box-shadow: 0 18px 40px rgba(51, 51, 51, 0.1);
+  box-shadow: 0 18px 40px rgba(51, 51, 51, 0.1);
+  background: #fff;
+  border-radius: 5px;
+  padding: 50px 30px 63px;
+  -webkit-transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
+  text-align: center;
+  margin-top: 60px;
+}
+
+.sub-services-box.style-01 .image-box-wrap .box-image {
+  text-align: center;
+  margin-bottom: 41px;
+  color: #2B5A93;
+}
+
+.sub-services-box.style-01 .image-box-wrap .content {
+  text-align: center;
+}
+
+.sub-services-box.style-01 .image-box-wrap .content .heading {
+  /* font-weight: 500; */
+  line-height: 1.25;
+  margin-bottom: 12px;
+}
+
+.sub-services-box.style-01 .image-box-wrap .content .service_text {
+  color: #696969;
+}
+
+.sub-services-box.style-01:hover .icon-box-wrap {
+  border-color: #fff;
+  -webkit-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  transform: translateY(-5px);
+  background: #fff;
+  -webkit-box-shadow: 0 0 40px rgba(51, 51, 51, 0.1);
+  box-shadow: 0 0 40px rgba(51, 51, 51, 0.1);
+}
+
+.sub-services-box.style-01 .circle-arrow {
+  position: absolute;
+  left: 50%;
+  bottom: 0px;
+  -webkit-transform: translate(-50%, 50%);
+  -ms-transform: translate(-50%, 50%);
+  transform: translate(-50%, 50%);
+  height: 56px;
+  width: 56px;
+}
+
+.sub-services-box.style-01 .circle-arrow .middle-dot {
+  pointer-events: none;
+  content: "";
+  position: absolute;
+  top: -12px;
+  left: -12px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 2px solid #2B5A93;
+  opacity: 0;
+  -webkit-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+.sub-services-box.style-01 .circle-arrow span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 56px;
+  height: 56px;
+  line-height: 56px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 24px;
+  color: #fff;
+  background:  #2B5A93;
+}
+
+.sub-services-box.style-01:hover .circle-arrow span {
+  background: #2B5A93;
+  cursor: pointer;
+}
+
+.sub-services-box.style-01:hover .circle-arrow .middle-dot {
+  -webkit-animation: boxImageAnimationSignal cubic-bezier(0, 0.55, 0.55, 1) 2s;
+  animation: boxImageAnimationSignal cubic-bezier(0, 0.55, 0.55, 1) 2s;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  animation-fill-mode: none;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+.limit-content-height{
+  height: 175px !important ;
+}

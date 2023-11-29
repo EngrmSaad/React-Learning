@@ -1,0 +1,29 @@
+.contact-number {
+  display: block !important;
+  width: auto !important;
+}
+.ant-input-number-input::placeholder {
+  color: rgb(181, 181, 181) !important; /* Change this to your desired color */
+}
+.custom-inp {
+  height: 32px !important;
+  background: white !important;
+  border-color: white !important;
+  border-radius: 6px !important;
+  font-family: "Montserrat", sans-serif;
+}
+.custom-inp::placeholder {
+  color: rgb(181, 181, 181) !important;
+}
+.ant-select-selection-placeholder {
+  color: rgb(181, 181, 181) !important; /* Set your desired color here */
+}
+.view-demo-btn {
+  background: #59cbe8;
+  color: white;
+  border: none;
+}
+
+.demoForm{
+  background-color: #ff99995b !important;
+}

@@ -1,0 +1,128 @@
+.contact-bg {
+  /* background-image: url(../images/bg/home-infotechno-contact-bg.webp);
+    background-size: cover;
+    background-repeat: no-repeat; */
+    background-color: var(--bodyColor);
+}
+
+.contact-space-padding {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+#contact {
+  position: relative;
+  z-index: auto;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .contact-space-padding {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .contact-space-padding {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+.contact-info-one .icon {
+  font-size: 40px;
+  color: var(--PAColor)
+  /* color: #2b5a93; */
+}
+
+.contact-info-one .heading {
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.contact-info-one .call-us {
+  line-height: 1.17;
+  color: #002fa6;
+  position: relative;
+  display: inline-block;
+}
+
+.contact-info-one .call-us::before {
+  content: "";
+  width: 0;
+  height: 1px;
+  bottom: 0;
+  position: absolute;
+  left: auto;
+  right: 0;
+  z-index: 1;
+  -webkit-transition: width 0.6s cubic-bezier(0.25, 0.8, 0.25, 1) 0s;
+  -o-transition: width 0.6s cubic-bezier(0.25, 0.8, 0.25, 1) 0s;
+  transition: width 0.6s cubic-bezier(0.25, 0.8, 0.25, 1) 0s;
+  background: currentColor;
+}
+
+.contact-info-one .call-us:hover {
+  color: #002fa6;
+}
+
+.contact-info-one .call-us:hover::before {
+  width: 100%;
+  left: 0;
+  right: auto;
+}
+
+.contact-info-one .call-us a:hover {
+  color: #002fa6;
+}
+
+.contact-info-one .btn--secondary {
+  min-width: 230px;
+}
+.for-FontStyling {
+  color: white; /* Message text color */
+}
+.contact-info-one .btn--secondary:hover {
+  background: #2b5a93;
+}
+
+.custom-input::placeholder {
+  color: white !important; /* Your desired placeholder color */
+  font-weight: 500;
+}
+
+textarea.ant-input::placeholder {
+  color: white !important; /* Replace with your desired placeholder color */
+  font-weight: 500;
+}
+
+.ant-modal-title {
+  color: #2b59a3 !important;
+  font-weight: 600;
+  font-size: 25px !important;
+  padding: 6px !important;
+}
+
+.ant-modal-content {
+  /* background: linear-gradient(0.93turn, #8acfdf, #639bca, #5182bf); */
+  background: linear-gradient(0.5turn, #eeaaaa, #ffceab, #e0a797);
+}
+.ant-input {
+  height: 48px !important;
+  /* background: linear-gradient(0.93turn, #8acfdf, #639bca, #5182bf); */
+  background: linear-gradient(0.5turn, #eeaaaa, #ffabab, #e0a797);
+  border-color: white !important;
+}
+.form-select {
+  /* background: linear-gradient(0.93turn, #8acfdf, #639bca, #5182bf); */
+  background: linear-gradient(0.5turn, #eeaaaa, #ffabab, #e0a797);
+}
+
+.form-control:focus {
+  background: linear-gradient(0.5turn, #eeaaaa, #ffabab, #e0a797) !important;
+}
+#contact {
+  background: #ffffff;
+}
