@@ -31,9 +31,9 @@ const Footer = () => {
 
   const locationLink = 'https://maps.app.goo.gl/zZdtLCVUuELrmfTy5'
   const websiteLink = 'pakistanautomation.com.pk'
-  const linhedinLink = 'https://www.linkedin.com/company/pakistan-automation'
+  const linkedinLink = 'https://www.linkedin.com/company/pakistan-automation'
   const infoEmail = 'info@pakistanautomation.com.pk'
-  
+
 
   const category = [
     "Custom Software Development",
@@ -163,7 +163,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href={ `https://${websiteLink}`}
+                    href={`https://${websiteLink}`}
                     className="hover-style-link text--primary"
                     rel="noopener noreferrer"
                   >
@@ -212,7 +212,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href={linhedinLink}
+                    href={linkedinLink}
                     className="hover-style-link"
                     target="_blank"
                   >
@@ -248,7 +248,7 @@ const Footer = () => {
           <Row className="align-items-center">
             <div className="col-md-6 text-center text-md-start">
               <span className="copyright-text">
-                © {new Date().getFullYear()} Digital Coverage{" "}
+                © {new Date().getFullYear()} Pakistan Automation{" "}
                 <a href="https://www.pakistanautomation.com.pk/">
                   All Rights Reserved.
                 </a>
@@ -271,7 +271,7 @@ const Footer = () => {
                 {/* by saime/ */}
                 <li className="item">
                   <a
-                    href="https://www.linkedin.com/company/digital-coverage-technology"
+                    href={linkedinLink}
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="Linkedin"
