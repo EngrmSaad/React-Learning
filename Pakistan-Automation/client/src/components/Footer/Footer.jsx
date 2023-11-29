@@ -29,6 +29,12 @@ const Footer = () => {
   const dispatch = useDispatch();
   const { TextArea } = Input;
 
+  const locationLink = 'https://maps.app.goo.gl/zZdtLCVUuELrmfTy5'
+  const websiteLink = 'pakistanautomation.com.pk'
+  const linhedinLink = 'https://www.linkedin.com/company/pakistan-automation'
+  const infoEmail = 'info@pakistanautomation.com.pk'
+  
+
   const category = [
     "Custom Software Development",
     "Web Application Development",
@@ -134,7 +140,7 @@ const Footer = () => {
                     target={"_blank"}
                     rel="noopener noreferrer"
                     href={
-                      "https://maps.app.goo.gl/zZdtLCVUuELrmfTy5"
+                      locationLink
                     }
                   >
                     {" "}
@@ -143,7 +149,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="mailto:info@pakistanautomation.com.pk"
+                    href={`mailto:${infoEmail}`}
                     className="hover-style-link"
                   >
                     <i className="fa-solid fa-envelope"></i>{" "}
@@ -157,12 +163,12 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="https://pakistanautomation.com.pk/"
+                    href={ `https://${websiteLink}`}
                     className="hover-style-link text--primary"
                     rel="noopener noreferrer"
                   >
                     <i className="fa-solid fa-globe"></i>{" "}
-                    pakistanautomation.com.pk
+                    {websiteLink}
                   </a>
                 </li>
               </ul>
@@ -197,7 +203,7 @@ const Footer = () => {
                     target={"_blank"}
                     rel="noopener noreferrer"
                     href={
-                      "https://www.google.com/maps/place/St+10,+Gulshan+e+Jamal,+Karachi,+Karachi+City,+Sindh,+Pakistan/@24.8992242,67.1133332,17z/data=!3m1!4b1!4m5!3m4!1s0x3eb33922f6f104cb:0xdc580733c7803030!8m2!3d24.8992242!4d67.1155219"
+                      locationLink
                     }
                     className="hover-style-link"
                   >
@@ -206,7 +212,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="https://www.linkedin.com/company/digital-coverage-technology"
+                    href={linhedinLink}
                     className="hover-style-link"
                     target="_blank"
                   >
@@ -220,7 +226,7 @@ const Footer = () => {
               <ul className="footer-widget__list">
                 <li>
                   <a
-                    href="mailto:info@digitalcoverage.com.pk"
+                    href={`mailto:${infoEmail}`}
                     className="hover-style-link"
                   >
                     Forum Support
