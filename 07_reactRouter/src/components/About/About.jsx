@@ -2,8 +2,8 @@ import React from 'react'
 
 function About() {
   return (
-    <div>
-      
+    <div className='text-center text-3xl bg-green-500'>
+      About Us
     </div>
   )
 }
