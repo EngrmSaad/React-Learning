@@ -1,0 +1,45 @@
+.Title{
+    width: 80%;
+    height: 60%;
+    background-color: #293E49;
+}
+
+.Heading{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.My-Name{
+    color: white;
+    font-family: 'Gothic A1';
+    font-size: 40px;
+    font-weight: normal;
+    /* text-wrap: normal; */
+}
+.My-Desig{
+    color: white;
+    font-family: 'Gothic A1';
+    font-size: 20px;
+}
+.Name-Underline{
+    height: 1px;
+}
+
+.PicFrame{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.Icon{
+    position: relative;
+    display: inline;
+    height: 25px;
+}
+.Icon img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}

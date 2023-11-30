@@ -2,7 +2,7 @@ import React from "react";
 
 function Button({ color = "black", setColor, txtColor = "white" }) {
   let ButtonText = color.charAt(0).toUpperCase() + color.slice(1);
-  console.log(txtColor);
+  // console.log(txtColor);
   return (
     <>
       <button
